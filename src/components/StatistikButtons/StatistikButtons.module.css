@@ -1,0 +1,16 @@
+.item{
+  display: inline-block;
+  border: 2px solid greenyellow;
+
+}
+.itemButton{
+  font-size: larger;
+  background-color: aquamarine;
+  color: rgb(179, 88, 190);
+  
+  font-weight: 600;
+
+  outline: 2px solid yellowgreen;
+border: none;
+  padding: 5px;
+}

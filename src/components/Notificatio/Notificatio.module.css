@@ -1,0 +1,9 @@
+.item{
+  font-size: medium;
+  color: red;
+  padding:5px;
+  border: 1px solid tomato;
+  border-radius: 5px;
+  font-weight:500 ;
+  background-color: brown;
+}

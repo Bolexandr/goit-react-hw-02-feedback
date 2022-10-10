@@ -1,0 +1,13 @@
+.List{
+ list-style: none;
+ display: flex;
+ gap: 10px;
+ font-weight: 600;
+ flex-wrap: wrap;
+}
+.List li {
+  border: 2px solid tomato;
+  background-color: rgb(171, 210, 30);
+  padding: 5px;
+  border-radius: 5px;
+}
