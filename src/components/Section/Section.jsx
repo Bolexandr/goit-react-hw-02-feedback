@@ -14,7 +14,7 @@ function Section({title,children}){
 
 export default Section
 
-Section.propTypes={
-  title: PropTypes.string.isRequired,
-  children: PropTypes.object
-}
+// Section.propTypes={
+//   title: PropTypes.string.isRequired,
+//   children: PropTypes.object
+// }

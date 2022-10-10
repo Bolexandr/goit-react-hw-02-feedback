@@ -21,6 +21,6 @@ function FeedbackOptions ({options}){
 
 export default FeedbackOptions
 
-FeedbackOptions.propTypes={
-  options:PropTypes.objectOf(PropTypes.number)
-}
+// FeedbackOptions.propTypes={
+//   options:PropTypes.objectOf(PropTypes.number)
+// }

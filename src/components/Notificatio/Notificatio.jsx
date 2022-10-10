@@ -10,6 +10,6 @@ export default function Notification  ({message}){
     </>
   )
 }
-Notification.propTypes={
-  message: PropTypes.string.isRequired
-}
+// Notification.propTypes={
+//   message: PropTypes.string.isRequired
+// }

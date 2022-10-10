@@ -34,10 +34,10 @@ return  <li key={el +1}  className={css.LI} >
 }
 export default Statistics
 
-StatisticOneItem.propTypes={
-  obj : PropTypes.objectOf(
-    PropTypes.number),
+// StatisticOneItem.propTypes={
+//   obj : PropTypes.objectOf(
+//     PropTypes.number),
     
-  fuTotal: PropTypes.func,
-  fuPersentage:PropTypes.func
-}
+//   fuTotal: PropTypes.func,
+//   fuPersentage:PropTypes.func
+// }
