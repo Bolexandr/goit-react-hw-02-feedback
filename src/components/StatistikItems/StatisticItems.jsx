@@ -5,8 +5,8 @@ import StatisticOneItem from "components/StatisticOneItem/StatisticOneItem"
 import css from "./StatisticItems.module.css"
 
 function Statistics ({obj ,fuTotal,fuPersentage}){
-  // const keys = Object.keys(obj)
-  // const values = Object.values(obj)
+  const keys = Object.keys(obj)
+  const values = Object.values(obj)
 
   const elMarking = keys.map((el, index )=>{
 return  <li key={el +1}  className={css.LI} >

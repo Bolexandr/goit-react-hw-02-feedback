@@ -5,7 +5,7 @@ import css from './StatistikButtons.module.css'
 
 function FeedbackOptions ({options}){
 
-  // const keyArr = Object.keys(options)
+  const keyArr = Object.keys(options)
 
   return(
     <ul>
@@ -21,6 +21,6 @@ function FeedbackOptions ({options}){
 
 export default FeedbackOptions
 
-// FeedbackOptions.propTypes={
-//   options:PropTypes.objectOf(PropTypes.number)
-// }
+FeedbackOptions.propTypes={
+  options:PropTypes.objectOf(PropTypes.number)
+}

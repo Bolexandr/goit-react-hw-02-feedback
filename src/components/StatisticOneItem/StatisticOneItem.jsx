@@ -15,7 +15,7 @@ function StatisticOneItem ({first, second}) {
 
 export default StatisticOneItem;
 
-// StatisticOneItem.propTypes={
-//   first : PropTypes.string.isRequired,
-//   second : PropTypes
-// }
+StatisticOneItem.propTypes={
+  first : PropTypes.string.isRequired,
+  second : PropTypes
+}
