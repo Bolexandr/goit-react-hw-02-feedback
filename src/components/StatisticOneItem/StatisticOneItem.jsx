@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 
 import css from './StatisticOneItem.module.css'
 
-function StatisticOneItem (first, second) {
+function StatisticOneItem ({first, second}) {
   return(
     <>
  <div>
@@ -13,3 +14,8 @@ function StatisticOneItem (first, second) {
 };
 
 export default StatisticOneItem;
+
+StatisticOneItem.propTypes={
+  first : PropTypes.string.isRequired,
+  second : PropTypes
+}

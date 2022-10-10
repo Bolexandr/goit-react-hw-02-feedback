@@ -18,20 +18,17 @@ export default class App  extends Component  {
 
   countTotalFeedback = () => {
     let sum = this.state.good + this.state.bad + this.state.neutral;
-    console.log(sum);
 return sum
   }
 
   countTotalFeedback = () => {
     let sum = this.state.good + this.state.bad + this.state.neutral;
-    console.log(sum);
 return sum
   }
 
   countPositiveFeedbackPercentage=()=>{
 
     let persentage = (100 * this.state.good / this.countTotalFeedback())
-    console.log( persentage.toFixed(),'%')
     return `${persentage.toFixed()} %`
   }
 
